@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px 24px;
+}
+
+h3{
+  color: #333;
+  font-size: 24px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.container-img {
+  padding: 60px 20px;
+}
+
+.scarecrow {
+  border-radius: 8px;
+  background: #FFF;
+  width: 100%;
+}
+
+.title {
+  color: #333;
+  font-size: 48px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -1.68px;
+}
+
+p {
+  margin: 30px 0 66px 0;
+  color: var(#4F4F4F);
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: -0.63px;
+}
+
+button {
+ background-color: #333;
+ padding: 23px 43px;
+ border: none;
+color: #FFF;
+font-size: 14px;
+font-family: Space Mono;
+font-weight: 700;
+letter-spacing: -0.49px;
+text-transform: uppercase;  
+cursor: pointer;
+}
+
+footer {
+  color: #BDBDBD;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  padding-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  body {
+    padding: 40px 80px;
+  }
+
+  .scarecrow{
+    max-width: 700px;
+  }
+}
